@@ -5,3 +5,18 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+h2 {
+font-family: Lato;
+font-weight: bold;
+}
+
+a {
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  vertical-align: middle;
+}
