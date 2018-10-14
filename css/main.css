@@ -29,7 +29,11 @@ a {
   font-family: Lato;
   color: #333;
   text-decoration: none;
-  margin: 1.5rem;
+  border-color: #333;
+  border: solid;
+  border-radius: .5em;
+  padding: 1em;
+  line-height: 1.5;
 }
 
 a:hover {
