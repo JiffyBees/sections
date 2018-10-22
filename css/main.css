@@ -1,40 +1,35 @@
 html {
   box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  vertical-align: middle;
 }
 
 body {
   background-color: #eee9de;
   margin: 0;
-  padding-top: 2em;
-  padding-left: .5em;
   text-align: center;
 }
 
 section {
   width: 100%;
-  max-width: 25em;
-  float: left;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 h2 {
-  font-family: Lato, sans-serif;
   font-weight: bold;
-  margin-bottom: .75em;
+  margin-top: 0;
 }
 
 p {
-  display: block;
-  font-family: Lato, sans-serif;
-  line-height: 1.5;
-  margin-bottom: 1.5em;
+  /* display: block; */
 }
 
-a {
+.btn {
   display: inline-block;
   font-family: Lato, sans-serif;
   color: #333;
@@ -46,7 +41,7 @@ a {
   line-height: 1.5;
 }
 
-a:hover {
+.btn:hover {
   display: inline-block;
   color: #fff;
   background-color: #666;
@@ -57,12 +52,12 @@ a:hover {
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
-  padding: .75em;
-  margin-right: 1.5em;
 }
 
-.btn {
+.image, .text {
+  display: inline-block;
   text-align: left;
-  padding: .5em;
+  padding: 1em;
+  vertical-align: middle;
+  max-width: 25em;
 }
